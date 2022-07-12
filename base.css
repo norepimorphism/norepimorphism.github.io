@@ -1,0 +1,11 @@
+:root {
+    --theme-color: #6842f4;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+code, pre {
+    font-family: monospace;
+}
