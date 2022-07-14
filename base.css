@@ -1,5 +1,6 @@
 :root {
     --theme-color: #6842f4;
+    --darker-theme-color: #5230cc;
 }
 
 body {
@@ -8,4 +9,22 @@ body {
 
 code, pre {
     font-family: monospace;
+}
+
+footer {
+    text-align: center;
+}
+
+.button-like {
+    background-color: var(--theme-color);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 500ms;
+    user-select: none;
+}
+
+.button-like:hover {
+    background-color: var(--darker-theme-color);
 }
